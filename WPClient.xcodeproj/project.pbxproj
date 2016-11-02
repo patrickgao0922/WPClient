@@ -17,13 +17,13 @@
 
 /* Begin PBXFileReference section */
 		960A1C1B1DC9618B0042C2F7 /* WPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		960A1C1E1DC9618B0042C2F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		960A1C201DC9618B0042C2F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		960A1C1E1DC9618B0042C2F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = WPClient/AppDelegate.swift; sourceTree = "<group>"; };
+		960A1C201DC9618B0042C2F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = WPClient/ViewController.swift; sourceTree = "<group>"; };
 		960A1C231DC9618B0042C2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		960A1C261DC9618B0042C2F7 /* WPClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WPClient.xcdatamodel; sourceTree = "<group>"; };
-		960A1C281DC9618B0042C2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		960A1C281DC9618B0042C2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = WPClient/Assets.xcassets; sourceTree = "<group>"; };
 		960A1C2B1DC9618B0042C2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		960A1C2D1DC9618B0042C2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960A1C2D1DC9618B0042C2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = WPClient/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +40,7 @@
 		960A1C121DC9618B0042C2F7 = {
 			isa = PBXGroup;
 			children = (
+				960A1C331DC961910042C2F7 /* Example */,
 				960A1C1D1DC9618B0042C2F7 /* WPClient */,
 				960A1C1C1DC9618B0042C2F7 /* Products */,
 			);
@@ -56,6 +57,13 @@
 		960A1C1D1DC9618B0042C2F7 /* WPClient */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = WPClient;
+			sourceTree = "<group>";
+		};
+		960A1C331DC961910042C2F7 /* Example */ = {
+			isa = PBXGroup;
+			children = (
 				960A1C1E1DC9618B0042C2F7 /* AppDelegate.swift */,
 				960A1C201DC9618B0042C2F7 /* ViewController.swift */,
 				960A1C221DC9618B0042C2F7 /* Main.storyboard */,
@@ -64,7 +72,7 @@
 				960A1C2D1DC9618B0042C2F7 /* Info.plist */,
 				960A1C251DC9618B0042C2F7 /* WPClient.xcdatamodeld */,
 			);
-			path = WPClient;
+			name = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +163,7 @@
 				960A1C231DC9618B0042C2F7 /* Base */,
 			);
 			name = Main.storyboard;
+			path = WPClient;
 			sourceTree = "<group>";
 		};
 		960A1C2A1DC9618B0042C2F7 /* LaunchScreen.storyboard */ = {
@@ -163,6 +172,7 @@
 				960A1C2B1DC9618B0042C2F7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = WPClient;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -314,7 +324,8 @@
 				960A1C261DC9618B0042C2F7 /* WPClient.xcdatamodel */,
 			);
 			currentVersion = 960A1C261DC9618B0042C2F7 /* WPClient.xcdatamodel */;
-			path = WPClient.xcdatamodeld;
+			name = WPClient.xcdatamodeld;
+			path = WPClient/WPClient.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
